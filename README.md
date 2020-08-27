@@ -3,8 +3,8 @@ REST APIs using Spring 5, JPA, map struct
 
 To run the project 
 
-<i>1.Install all the maven dependencies,
-2.Compile & run the project.</i>
+<i>1.Install all the maven dependencies,\
+  2.Compile & run the project.</i>
 
 
 The project uses in memory <strong>H2 database</strong>
