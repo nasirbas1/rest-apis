@@ -1,54 +1,53 @@
+<strong>OVERVIEW</strong>\
 REST APIs using Spring 5, JPA, map struct
 
 To run the project 
 
-1.Install all the maven dependencies, run  mvn idea:idea in the terminal.
-
-2.Compile & run the project.
-
+<i>1.Install all the maven dependencies,
+2.Compile & run the project.</i>
 
 
-The project uses in memory H2 database. 
+The project uses in memory <strong>H2 database</strong>
 
-To access the same, go to "http://localhost:8080/h2-console/"
+To access the same, go to <i><strong>http://localhost:8080/h2-console/</strong></i>
 
-Click connect (Make sure the JDBC url is: "jdbc:h2:mem:testdb")
+Click connect (Make sure the JDBC url is: <strong>jdbc:h2:mem:testdb</strong>)
 
 API-endpoints for fruit shop
 
 1.Categories
 
-[GET] /api/v1/categories => retrieves all categories
+<strong>[GET]</strong> <i>/api/v1/categories</i> => retrieves all categories
 
-[GET] /api/v1/categories/{categoryName} => retrieves the category based on param passed
+<strong>[GET]</strong> <i>/api/v1/categories/{categoryName}</i> => retrieves the category based on param passed
 
 2.Customers
 
-[GET] /api/v1/customers => retrieves all the customers
+<strong>[GET]</strong> <i>/api/v1/customers</i> => retrieves all the customers
 
-[GET] /api/v1/customers/{customerId} => retrieves specific customer
+<strong>[GET]</strong> <i>/api/v1/customers/{customerId}</i> => retrieves specific customer
 
-[POST]   /api/v1/customers => Request body[firstname, lastname] => creates new customer
+<strong>[POST]</strong> <i>/api/v1/customers</i> => Request body[firstname, lastname] => creates new customer
 
-[PUT]    /api/v1/customers/{customerId} => updates one customer based on Id
+<strong>[PUT]</strong> <i>/api/v1/customers/{customerId}</i> => updates one customer based on Id
 
-[PATCH]  /api/v1/customers/{customerId} => patches one customer based on Id
+<strong>[PATCH]</strong> <i>/api/v1/customers/{customerId}</i> => patches one customer based on Id
 
-[DELETE] /api/v1/customers/{customerId} => deletes a customer based on Id
+<strong>[DELETE]</strong> <i>/api/v1/customers/{customerId}</i> => deletes a customer based on Id
 
 3.Vendors
 
-[GET] /api/v1/vendors => retrieves all the vendors
+<strong>[GET]</strong> <i>/api/v1/vendors</i> => retrieves all the vendors
 
-[GET] /api/v1/vendors/{vendorId} => retrieves specific vendor
+<strong>[GET]</strong> <i>/api/v1/vendors/{vendorId}</i> => retrieves specific vendor
 
-[POST]   /api/v1/vendors => Request body[name] => creates new vendor
+<strong>[POST]</strong> <i>/api/v1/vendors</i> => Request body[name] => creates new vendor
 
-[PUT]    /api/v1/vendors/{vendorId} => updates one vendor based on Id
+<strong>[PUT]</strong> <i>/api/v1/vendors/{vendorId}</i> => updates one vendor based on Id
 
-[PATCH]  /api/v1/vendors/{vendorId} => patches one vendor based on Id
+<strong>[PATCH]</strong> <i>/api/v1/vendors/{vendorId}</i> => patches one vendor based on Id
 
-[DELETE] /api/v1/vendors/{vendorId} => deletes a vendor based on Id
+<strong>[DELETE]</strong> <i>/api/v1/vendors/{vendorId}</i> => deletes a vendor based on Id
 
 
 
